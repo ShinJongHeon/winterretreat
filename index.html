@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Group Randomizer</title>
+    <link rel="stylesheet" type="text/css" href="조뽑기.css">
+</head>
+<body>
+    <div class="container">
+        <div class="output-section">
+            <div id="rouletteWheel" class="wheel rouletteWheel">
+        <div id="name1" class="name-bubble"></div>
+        <div id="name2" class="name-bubble"></div>
+        <div id="name3" class="name-bubble"></div>
+        <div id="name4" class="name-bubble"></div>
+        <div id="name5" class="name-bubble"></div>
+        <div id="name6" class="name-bubble"></div>
+        <div id="name7" class="name-bubble"></div>
+        <div id="name8" class="name-bubble"></div>
+    </div>
+<div class="button-center">
+    <button id="spinButton">돌리기</button>
+</div>
+        <div class="input-section">
+            <h1>수련회 랜덤 조뽑기</h1>
+            <textarea id="namesInput" placeholder="이름 입력"></textarea>
+            <button id="saveNamesButton">이름 저장</button>
+            <h3>수련회 법우들</h3>
+            <div id="namesList"></div>
+        </div>
+	 <div class="group-output-section">
+    	    <h3>조별 명단</h3>
+      	  <div id="groupLists"></div>
+    </div>
+<audio id="spinSound" src="조뽑기.mp3"></audio>
+
+    <script src="조뽑기.js"></script>
+</body>
+</html>
